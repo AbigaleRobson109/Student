@@ -12,6 +12,29 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private int id;
+    private String program;
+
+    
+    public String getProgram() {
+        return program;
+    }
+
+    /**
+     *
+     * @return 
+     */
+    public void setProgram(String program) {    
+        this.program = program;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     /**
      * Get the value of name
