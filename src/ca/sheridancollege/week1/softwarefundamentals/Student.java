@@ -14,7 +14,7 @@ public class Student {
     private String name;
     private int id;
     private String program;
-    private double grade;
+    private double date;
 
     
     public String getProgram() {
